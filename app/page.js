@@ -105,7 +105,7 @@ export default function Home() {
           </div>
 
           <div className="w-full lg:w-1/2 text-left mt-6 sm:mt-8 sm:mb-12 lg:mt-20">
-          <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase">WHAT HAPPENED?</p>
+          <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase text-center">WHAT HAPPENED?</p>
           <div className="mt-5">
             <p className="lg:text-4xl  sm:text-2xl font-bold tracking-tight text-white lowercase ">text-3xl → makes the text large</p>
             <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase ">font-bold → makes the text bold</p>
