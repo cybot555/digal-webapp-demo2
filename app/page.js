@@ -38,7 +38,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-10 items-start">
             {/* LEFT: Text + Code Box */}
             <div className="w-full lg:w-1/2 text-left">
-              <p className="text-xl sm:text-2xl font-bold tracking-tight text-fuchsia-500 uppercase">
+              <p className="text-xl sm:text-2xl font-bold tracking-tight text-fuchsia-500 uppercase underline">
                 STEP 1: Plug-in Tailwind CSS
               </p>
 
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 items-start">
 
           <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-10">
-          <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase">STEP 2: STYLE YOUR FIRST!</p>
+          <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase underline">STEP 2: STYLE YOUR FIRST!</p>
           <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
             <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
             {`<h1 class="text-3xl font-bold text-purple-600"> Hello Tailwind CSS </h1>`}
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 items-start">
 
           <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-50 lg:mt-20">
-          <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase">STEP 3: MAYBE, ADD SOME SPACING!</p>
+          <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase underline">STEP 3: MAYBE, ADD SOME SPACING!</p>
           <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
             <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
             {`<div class="p-6 mt-4 bg-gray-200 rounded-lg text-center font-mono"> This is a styled box. </div>`}
