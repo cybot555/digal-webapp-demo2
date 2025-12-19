@@ -73,7 +73,7 @@ export default function Home() {
 
             {/* RIGHT: Explanation */}
             <div className="w-full lg:w-1/2 mt-2">
-              <p className="text-2xl font-extrabold tracking-tighter text-fuchsia-500 mt-10 lg:mt-20">
+              <p className="text-2xl font-extrabold tracking-tighter text-fuchsia-500 sm:mt-0 lg:mt-20">
                 This setup allows you to start using Tailwind CSS instantly
                 without installing anything.
               </p>
@@ -89,24 +89,22 @@ export default function Home() {
         </div>
 
 {/* {first tailwind styling} */}
-        <div className="flex flex-col lg:flex-row gap-10 items-start">
+        <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 items-start">
 
-          <div className="w-full lg:w-1/2 text-left mt-10">
+          <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-10">
           <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase">STEP 2: STYLE YOUR FIRST!</p>
           <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
-            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap wrap-break-word leading-relaxed">
-            {`<h1 class="text-3xl font-bold text-purple-600">
-              Hello Tailwind CSS
-            </h1>`}
+            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
+            {`<h1 class="text-3xl font-bold text-purple-600"> Hello Tailwind CSS </h1>`}
             </pre>
           </section>
           <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase mt-5">RESULT:</p>
-                <h1 class="text-3xl font-bold text-blue-600">
+                <h1 className="text-3xl font-bold text-blue-600 mt-2">
                   Hello Tailwind CSS
                 </h1>
           </div>
 
-          <div className="w-full lg:w-1/2 text-left mt-10">
+          <div className="w-full lg:w-1/2 text-left mt-6 sm:mt-8 sm:mb-12 lg:mt-20">
           <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase">WHAT HAPPENED?</p>
           <div className="mt-5">
             <p className="lg:text-4xl  sm:text-2xl font-bold tracking-tight text-white lowercase ">text-3xl → makes the text large</p>
