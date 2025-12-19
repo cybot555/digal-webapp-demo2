@@ -148,8 +148,8 @@ export default function Home() {
           <h1 className="font-extrabold text-4xl sm:text-6xl lg:text-8xl tracking-tighter text-balance text-white">
             And you know what's crazy? There are a LOT more to explore!
           </h1>
-          <p className="text-base sm:text-lg font-light tracking-loose text-white mt-5 lowercase">
-            Visit the official Tailwind CSS documentation to learn more: <a href="https://tailwindcss.com/docs">https://tailwindcss.com/doc</a>
+          <p className="text-base sm:text-lg font-light tracking-loose text-white mt-5 ">
+            Visit the official Tailwind CSS documentation to learn more: <a href="https://tailwindcss.com/docs">https://tailwindcss.com/doc</a>.
           </p>
         </div>
         </footer>
