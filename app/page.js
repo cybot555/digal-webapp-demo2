@@ -92,7 +92,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 items-start">
 
           <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-10">
-          <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase">STEP 2: STYLE YOUR FIRST!</p>
+          <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase">STEP 2: STYLE YOUR FIRST!</p>
           <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
             <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
             {`<h1 class="text-3xl font-bold text-purple-600"> Hello Tailwind CSS </h1>`}
@@ -107,13 +107,46 @@ export default function Home() {
           <div className="w-full lg:w-1/2 text-left mt-6 sm:mt-8 sm:mb-12 lg:mt-20">
           <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase text-center">WHAT HAPPENED?</p>
           <div className="mt-5">
-            <p className="lg:text-4xl  sm:text-2xl font-bold tracking-tight text-white lowercase ">text-3xl → makes the text large</p>
-            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase ">font-bold → makes the text bold</p>
-            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase  ">text-purple-600 → makes the text purple</p>
+            <p className="lg:text-4xl  sm:text-2xl font-bold tracking-tight text-white lowercase ">1. text-3xl → makes the text large</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase ">2. font-bold → makes the text bold</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase  ">3. text-purple-600 → makes the text purple</p>
           </div>
             
           </div>
         </div>
+
+{/* {second tailwind styling} */}
+        <div className="flex flex-col lg:flex-row gap-8 sm:gap-10 items-start">
+
+          <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-50 lg:mt-20">
+          <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase">STEP 3: MAYBE, ADD SOME SPACING!</p>
+          <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
+            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
+            {`<div class="p-6 mt-4 bg-gray-200 rounded-lg text-center font-mono"> This is a styled box. </div>`}
+            </pre>
+          </section>
+          <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase mt-5">RESULT:</p>
+                <div class="p-6 mt-4 bg-gray-200 rounded-lg text-center font-mono"> This is a styled box. </div>
+          </div>
+
+          <div className="w-full lg:w-1/2 text-left mt-6 sm:mt-8 sm:mb-12 lg:mt-20">
+          <p className="text-xl sm:text-2xl font-bold tracking-tight text-white uppercase text-center">WHAT HAPPENED?</p>
+          <div className="mt-5">
+            <p className="lg:text-4xl  sm:text-2xl font-bold tracking-tight text-white lowercase ">1. p-6 → padding inside the box</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase ">2. mt-4 → space above the box</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase ">3. bg-gray-200 → background color</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase  ">4. rounded-lg → rounded corners</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase  ">5. text-center → centers the text</p>
+            <p className="lg:text-4xl sm:text-2xl font-bold tracking-tight text-white lowercase  ">6. font-mono → changes the font to monospace</p>
+          </div>
+            
+          </div>
+        </div>
+
+        <footer>
+
+        </footer>
+
 
 
 
