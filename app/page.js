@@ -47,7 +47,7 @@ export default function Home() {
                   Add this inside your head tag:
                 </p>
 
-                <pre className="text-white font-mono text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
+                <pre className="text-white font-mono text-xs sm:text-sm mt-4 whitespace-pre-wrap wrap-break-word leading-relaxed">
                   &lt;script
                   src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
                 </pre>
@@ -56,7 +56,7 @@ export default function Home() {
                   Your full basic setup:
                 </p>
 
-                <pre className="text-white font-mono text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
+                <pre className="text-white font-mono text-xs sm:text-sm mt-4 whitespace-pre-wrap wrap-break-word leading-relaxed">
                   {`<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,7 +94,7 @@ export default function Home() {
           <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-10">
           <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase underline">STEP 2: STYLE YOUR FIRST!</p>
           <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
-            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
+            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap wrap-break-word leading-relaxed">
             {`<h1 class="text-3xl font-bold text-purple-600"> Hello Tailwind CSS </h1>`}
             </pre>
           </section>
@@ -121,7 +121,7 @@ export default function Home() {
           <div className="w-full lg:w-1/2 text-left mt-8 sm:mt-50 lg:mt-20">
           <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold tracking-tight text-white uppercase underline">STEP 3: MAYBE, ADD SOME SPACING!</p>
           <section className="bg-neutral-700 p-7 sm:p-8 rounded-2xl shadow-lg mt-5 w-full">
-            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap break-words leading-relaxed">
+            <pre className="text-white font-normal text-xs sm:text-sm mt-4 whitespace-pre-wrap wrap-break-word leading-relaxed">
             {`<div class="p-6 mt-4 bg-gray-200 rounded-lg text-center font-mono"> This is a styled box. </div>`}
             </pre>
           </section>
