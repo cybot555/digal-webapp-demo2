@@ -145,7 +145,7 @@ export default function Home() {
 
         <footer>
         <div className="text-center mt-15">
-          <h1 className="font-extrabold text-4xl sm:text-6xl lg:text-8xl tracking-tighter text-balance text-white">
+          <h1 className="font-extrabold text-4xl sm:text-6xl lg:text-8xl tracking-tighter text-balance text-orange-600">
             And you know what's crazy? There are a LOT more to explore!
           </h1>
           <p className="text-base sm:text-lg font-light tracking-loose text-white mt-5 ">
